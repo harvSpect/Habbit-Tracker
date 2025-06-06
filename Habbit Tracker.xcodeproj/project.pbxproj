@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EDB34A42DF30B8B00D49AC1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB34A32DF30B8300D49AC1 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EDB34872DF30ADC00D49AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDB34692DF30ADA00D49AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EDB34702DF30ADA00D49AC1;
+			remoteInfo = "Habbit Tracker";
+		};
+		5EDB34912DF30ADC00D49AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDB34692DF30ADA00D49AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EDB34702DF30ADA00D49AC1;
+			remoteInfo = "Habbit Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EDB34712DF30ADA00D49AC1 /* Habbit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habbit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDB34862DF30ADC00D49AC1 /* Habbit TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habbit TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDB34902DF30ADC00D49AC1 /* Habbit TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habbit TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDB34A32DF30B8300D49AC1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5EDB34732DF30ADA00D49AC1 /* Habbit Tracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Habbit Tracker";
+			sourceTree = "<group>";
+		};
+		5EDB34892DF30ADC00D49AC1 /* Habbit TrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Habbit TrackerTests";
+			sourceTree = "<group>";
+		};
+		5EDB34932DF30ADC00D49AC1 /* Habbit TrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Habbit TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EDB346E2DF30ADA00D49AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB34832DF30ADC00D49AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB348D2DF30ADC00D49AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EDB34682DF30ADA00D49AC1 = {
+			isa = PBXGroup;
+			children = (
+				5EDB34A32DF30B8300D49AC1 /* README.md */,
+				5EDB34732DF30ADA00D49AC1 /* Habbit Tracker */,
+				5EDB34892DF30ADC00D49AC1 /* Habbit TrackerTests */,
+				5EDB34932DF30ADC00D49AC1 /* Habbit TrackerUITests */,
+				5EDB34722DF30ADA00D49AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EDB34722DF30ADA00D49AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB34712DF30ADA00D49AC1 /* Habbit Tracker.app */,
+				5EDB34862DF30ADC00D49AC1 /* Habbit TrackerTests.xctest */,
+				5EDB34902DF30ADC00D49AC1 /* Habbit TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EDB34702DF30ADA00D49AC1 /* Habbit Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDB349A2DF30ADC00D49AC1 /* Build configuration list for PBXNativeTarget "Habbit Tracker" */;
+			buildPhases = (
+				5EDB346D2DF30ADA00D49AC1 /* Sources */,
+				5EDB346E2DF30ADA00D49AC1 /* Frameworks */,
+				5EDB346F2DF30ADA00D49AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5EDB34732DF30ADA00D49AC1 /* Habbit Tracker */,
+			);
+			name = "Habbit Tracker";
+			packageProductDependencies = (
+			);
+			productName = "Habbit Tracker";
+			productReference = 5EDB34712DF30ADA00D49AC1 /* Habbit Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EDB34852DF30ADC00D49AC1 /* Habbit TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDB349D2DF30ADC00D49AC1 /* Build configuration list for PBXNativeTarget "Habbit TrackerTests" */;
+			buildPhases = (
+				5EDB34822DF30ADC00D49AC1 /* Sources */,
+				5EDB34832DF30ADC00D49AC1 /* Frameworks */,
+				5EDB34842DF30ADC00D49AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EDB34882DF30ADC00D49AC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5EDB34892DF30ADC00D49AC1 /* Habbit TrackerTests */,
+			);
+			name = "Habbit TrackerTests";
+			packageProductDependencies = (
+			);
+			productName = "Habbit TrackerTests";
+			productReference = 5EDB34862DF30ADC00D49AC1 /* Habbit TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EDB348F2DF30ADC00D49AC1 /* Habbit TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDB34A02DF30ADC00D49AC1 /* Build configuration list for PBXNativeTarget "Habbit TrackerUITests" */;
+			buildPhases = (
+				5EDB348C2DF30ADC00D49AC1 /* Sources */,
+				5EDB348D2DF30ADC00D49AC1 /* Frameworks */,
+				5EDB348E2DF30ADC00D49AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EDB34922DF30ADC00D49AC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5EDB34932DF30ADC00D49AC1 /* Habbit TrackerUITests */,
+			);
+			name = "Habbit TrackerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Habbit TrackerUITests";
+			productReference = 5EDB34902DF30ADC00D49AC1 /* Habbit TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EDB34692DF30ADA00D49AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5EDB34702DF30ADA00D49AC1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5EDB34852DF30ADC00D49AC1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5EDB34702DF30ADA00D49AC1;
+					};
+					5EDB348F2DF30ADC00D49AC1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5EDB34702DF30ADA00D49AC1;
+					};
+				};
+			};
+			buildConfigurationList = 5EDB346C2DF30ADA00D49AC1 /* Build configuration list for PBXProject "Habbit Tracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EDB34682DF30ADA00D49AC1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5EDB34722DF30ADA00D49AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EDB34702DF30ADA00D49AC1 /* Habbit Tracker */,
+				5EDB34852DF30ADC00D49AC1 /* Habbit TrackerTests */,
+				5EDB348F2DF30ADC00D49AC1 /* Habbit TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EDB346F2DF30ADA00D49AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDB34A42DF30B8B00D49AC1 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB34842DF30ADC00D49AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB348E2DF30ADC00D49AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EDB346D2DF30ADA00D49AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB34822DF30ADC00D49AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB348C2DF30ADC00D49AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EDB34882DF30ADC00D49AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EDB34702DF30ADA00D49AC1 /* Habbit Tracker */;
+			targetProxy = 5EDB34872DF30ADC00D49AC1 /* PBXContainerItemProxy */;
+		};
+		5EDB34922DF30ADC00D49AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EDB34702DF30ADA00D49AC1 /* Habbit Tracker */;
+			targetProxy = 5EDB34912DF30ADC00D49AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EDB34982DF30ADC00D49AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EDB34992DF30ADC00D49AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EDB349B2DF30ADC00D49AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Habbit Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = WTSUN2NP2M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khakalyadnyesh.Habbit-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EDB349C2DF30ADC00D49AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Habbit Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = WTSUN2NP2M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khakalyadnyesh.Habbit-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EDB349E2DF30ADC00D49AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khakalyadnyesh.Habbit-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habbit Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Habbit Tracker";
+			};
+			name = Debug;
+		};
+		5EDB349F2DF30ADC00D49AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khakalyadnyesh.Habbit-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habbit Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Habbit Tracker";
+			};
+			name = Release;
+		};
+		5EDB34A12DF30ADC00D49AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khakalyadnyesh.Habbit-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habbit Tracker";
+			};
+			name = Debug;
+		};
+		5EDB34A22DF30ADC00D49AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khakalyadnyesh.Habbit-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habbit Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EDB346C2DF30ADA00D49AC1 /* Build configuration list for PBXProject "Habbit Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDB34982DF30ADC00D49AC1 /* Debug */,
+				5EDB34992DF30ADC00D49AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDB349A2DF30ADC00D49AC1 /* Build configuration list for PBXNativeTarget "Habbit Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDB349B2DF30ADC00D49AC1 /* Debug */,
+				5EDB349C2DF30ADC00D49AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDB349D2DF30ADC00D49AC1 /* Build configuration list for PBXNativeTarget "Habbit TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDB349E2DF30ADC00D49AC1 /* Debug */,
+				5EDB349F2DF30ADC00D49AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDB34A02DF30ADC00D49AC1 /* Build configuration list for PBXNativeTarget "Habbit TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDB34A12DF30ADC00D49AC1 /* Debug */,
+				5EDB34A22DF30ADC00D49AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EDB34692DF30ADA00D49AC1 /* Project object */;
+}
