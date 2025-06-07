@@ -28,6 +28,12 @@ class HabitViewModel: ObservableObject {
         if let index = habits.firstIndex(of: habit) {
             habits[index].isCompleted.toggle()
             progress[day - 1][index] = habits[index].isCompleted
+
+            // Add haptic feedback
+            let impactFeedback = UIImpactFeedbackGenerator(style: .medium)
+            impactFeedback.prepare()
+            impactFeedback.impactOccurred()
+
             saveData()
         }
     }
@@ -44,7 +50,10 @@ class HabitViewModel: ObservableObject {
         if progress.isEmpty {
             progress = Array(repeating: Array(repeating: false, count: habits.count), count: 21)
         }
-        
+
+        let selectionFeedback = UISelectionFeedbackGenerator()
+        selectionFeedback.selectionChanged()
+
         saveData()
     }
 
@@ -56,8 +65,12 @@ class HabitViewModel: ObservableObject {
                 }
             }
         }
-        
+
         habits.remove(atOffsets: offsets)
+
+        let selectionFeedback = UISelectionFeedbackGenerator()
+        selectionFeedback.selectionChanged()
+
         saveData()
     }
 
@@ -66,6 +79,21 @@ class HabitViewModel: ObservableObject {
             day += 1
             // Reset current day's habit completion
             habits.indices.forEach { habits[$0].isCompleted = false }
+
+            let successFeedback = UINotificationFeedbackGenerator()
+            successFeedback.notificationOccurred(.success)
+            saveData()
+        }
+    }
+
+    func previousDay() {
+        if day > 1 {
+            day -= 1
+            habits.indices.forEach { habits[$0].isCompleted = progress[day - 1][$0] }
+
+            let successFeedback = UINotificationFeedbackGenerator()
+            successFeedback.notificationOccurred(.success)
+
             saveData()
         }
     }

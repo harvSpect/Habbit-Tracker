@@ -12,12 +12,6 @@ struct ContentView: View {
                 VStack(alignment: .leading, spacing: 16) {
                     // Header with Progress button inline
                     HStack {
-                        Text("🌟 My Habit Tracker")
-                            .font(.title2)
-                            .bold()
-
-                        Spacer()
-
                         NavigationLink(destination: ProgressViewScreen(viewModel: viewModel)) {
                             HStack(spacing: 4) {
                                 Image(systemName: "chart.bar.fill")
@@ -30,6 +24,20 @@ struct ContentView: View {
                             .padding(6)
                             .background(Color(.systemGray6))
                             .cornerRadius(8)
+                        }
+
+                        Spacer()
+
+                        Button(action: {
+                            showingAddHabitSheet = true
+                        }) {
+                            Image(systemName: "plus")
+                                .font(.system(size: 24))
+                                .frame(width: 56, height: 56)
+                                .background(Color.blue)
+                                .foregroundColor(.white)
+                                .clipShape(Circle())
+                                .shadow(radius: 5)
                         }
                     }
                     .padding(.horizontal)
@@ -96,39 +104,34 @@ struct ContentView: View {
                     }
 
                     // Next Day Button
-                    Button(action: {
-                        viewModel.nextDay()
-                    }) {
-                        Text("Next Day")
-                            .bold()
-                            .frame(maxWidth: .infinity)
-                            .padding()
-                            .background(Color.green)
-                            .foregroundColor(.white)
-                            .cornerRadius(12)
-                    }
-                    .padding(.horizontal)
-                    .padding(.bottom, 8)
-                }
-
-                // Floating Add Habit Button — Higher up now!
-                VStack {
-                    Spacer()
                     HStack {
-                        Spacer()
                         Button(action: {
-                            showingAddHabitSheet = true
+                            viewModel.previousDay()
                         }) {
-                            Image(systemName: "plus")
-                                .font(.system(size: 24))
-                                .frame(width: 56, height: 56)
-                                .background(Color.blue)
+                            Text("Previous Day")
+                                .bold()
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(Color.green)
                                 .foregroundColor(.white)
-                                .clipShape(Circle())
-                                .shadow(radius: 5)
+                                .cornerRadius(12)
                         }
-                        .padding(.bottom, 150) // More upwards → does NOT overlap Next Day button
-                        .padding(.trailing, 16)
+                        .padding(.horizontal)
+                        .padding(.bottom, 8)
+
+                        Button(action: {
+                            viewModel.nextDay()
+                        }) {
+                            Text("Next Day")
+                                .bold()
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(Color.green)
+                                .foregroundColor(.white)
+                                .cornerRadius(12)
+                        }
+                        .padding(.horizontal)
+                        .padding(.bottom, 8)
                     }
                 }
             }
@@ -148,7 +151,7 @@ struct ContentView: View {
                 )
             }
             .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("My Habits")
+            .navigationTitle("🌟 My Habit Tracker")
         }
     }
 }
